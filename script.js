@@ -16,9 +16,12 @@ console.log(carManufac.join().split());
 /*
 //3.Given an array of the names of your friends, add the words hello to each element of the array
 let names = ["Michael", "Ares", "Henk"];
-names.forEach(name=>console.log("Hello "+ name));
-;
+for(let i =0 ;i < names.length ;i++) {
+    names[i] = "Hello " + names[i]; 
+}
+console.log(names);
 */
+
 
 /*
 //4.Convert numeric array to Boolean
